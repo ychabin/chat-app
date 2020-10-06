@@ -8,12 +8,6 @@
   height: 100vh;
   }
 
-.main-chat{
-  background-color: #ffffff;
-  width: calc(100%-300px);
-  padding: 0 40px;
-  }
-
 .side-top{
   height: 100px;
   padding: 0 20px;
@@ -24,6 +18,11 @@
   height: calc( 100vh - 100px);
   padding: 0 20px;
 }
+
+.chat{
+  background-color: #ffffff;
+  width: calc(100% - 300px);
+  }
 
 .chat-top{
   height: 100px;
