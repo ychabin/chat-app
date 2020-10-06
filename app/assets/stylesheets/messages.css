@@ -1,0 +1,165 @@
+.wrapper{
+  display: flex;
+}
+
+.side-bar{
+  background-color: #253141;
+  width: 300px;
+  height: 100vh;
+  }
+
+.side-top{
+  height: 100px;
+  padding: 0 20px;
+  background-color: #253141;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.side-mains{
+  background-color: #2f3e51;
+  height: calc( 100vh - 100px);
+  padding: 0 20px;
+  overflow: scroll;
+}
+
+.main{
+  padding: 20px 0 40px;
+}
+
+.main-name a{
+  text-decoration: none;
+  color: white;
+}
+
+.user-name a{
+  color: #FAFAFA;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.chat-btn{
+  font-size: 10px;
+}
+
+.chat-btn a{
+  color: deepskyblue;
+  border: 1px solid lightblue;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.chat{
+  background-color: #ffffff;
+  width: calc(100% - 300px);
+  }
+
+.chat-top{
+  height: 100px;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.chat-main{
+  background-color: #FAFAFA;
+  height: calc( 100vh - 190px);
+  padding: 46px 40px 0;
+  overflow: scroll;
+}
+
+.chat-bottom{
+  background-color: #DDDDDD;
+  height: 90px;
+  padding: 20px 40px;
+  display: flex;
+}
+
+.chat-top a{
+  color: white;
+  padding: 20px 20px 40px;
+}
+
+.chat-room-name{
+  font-size: 24px;
+  color: #333;
+  margin-top: 36px;
+}
+
+.finish-btn{
+  margin-top: 40px;
+}
+
+.finish-btn a{
+  padding: 20px;
+  border: 1px solid darkred;
+  color: darkred;
+  text-decoration: none;
+}
+
+.message{
+  margin: 10px 0;
+}
+
+.upper-chat{
+  display: flex;
+}
+
+.chat-user{
+  font-size: 16px;
+  color: #434a54;
+}
+
+.chat-date{
+  font-size: 12px;
+  color: #999;
+  padding-left: 10px;
+}
+
+.lower-chat{
+  margin-top: 10px;
+}
+
+.chat-content{
+  font-size: 14px;
+  color: #434a54;
+  margin-bottom: 40px;
+}
+
+.form-input{
+  background-color: white;
+  display: flex;
+  width: 100%;
+}
+
+.text{
+  border: none;
+  height: 50px;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.submit-btn{
+  font-size: 16px;
+  color: white;
+  background-color: #38aef0;
+  padding: 0 20px;
+  margin-left: 15px;
+  height: 50px;
+  border: none;
+}
+
+.form-image {
+  font-size: 12px;
+  background-color: lightblue;
+  color: white;
+  padding: 12px;
+  width: 60px;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
