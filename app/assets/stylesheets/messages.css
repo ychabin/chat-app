@@ -11,12 +11,43 @@
 .side-top{
   height: 100px;
   padding: 0 20px;
+  background-color: #253141;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.side-main{
+.side-mains{
   background-color: #2f3e51;
   height: calc( 100vh - 100px);
   padding: 0 20px;
+  overflow: scroll;
+}
+
+.main{
+  padding: 20px 0 40px;
+}
+
+.main-name a{
+  text-decoration: none;
+  color: white;
+}
+
+.user-name a{
+  color: #FAFAFA;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.chat-btn{
+  font-size: 10px;
+}
+
+.chat-btn a{
+  color: deepskyblue;
+  border: 1px solid lightblue;
+  padding: 14px;
+  text-decoration: none;
 }
 
 .chat{
@@ -39,4 +70,9 @@
   background-color: #DDDDDD;
   height: 90px;
   padding: 20px 40px;
+}
+
+.chat-top a{
+  color: white;
+  padding: 20px 20px 40px;
 }
