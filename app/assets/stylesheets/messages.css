@@ -69,7 +69,7 @@
   overflow: scroll;
 }
 
-.chat-bottom{
+.form{
   background-color: #DDDDDD;
   height: 90px;
   padding: 20px 40px;
@@ -133,14 +133,14 @@
   width: 100%;
 }
 
-.text{
+.form-message{
   border: none;
   height: 50px;
   width: 100%;
   padding-left: 10px;
 }
 
-.submit-btn{
+.form-submit{
   font-size: 16px;
   color: white;
   background-color: #38aef0;
