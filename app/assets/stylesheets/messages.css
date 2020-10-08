@@ -69,7 +69,7 @@
   overflow: scroll;
 }
 
-.chat-bottom{
+.form{
   background-color: #DDDDDD;
   height: 90px;
   padding: 20px 40px;
@@ -102,26 +102,26 @@
   margin: 10px 0;
 }
 
-.upper-chat{
+.upper-message{
   display: flex;
 }
 
-.chat-user{
+.message-user{
   font-size: 16px;
   color: #434a54;
 }
 
-.chat-date{
+.message-date{
   font-size: 12px;
   color: #999;
   padding-left: 10px;
 }
 
-.lower-chat{
+.lower-message{
   margin-top: 10px;
 }
 
-.chat-content{
+.message-content{
   font-size: 14px;
   color: #434a54;
   margin-bottom: 40px;
@@ -133,14 +133,14 @@
   width: 100%;
 }
 
-.text{
+.form-message{
   border: none;
   height: 50px;
   width: 100%;
   padding-left: 10px;
 }
 
-.submit-btn{
+.form-submit{
   font-size: 16px;
   color: white;
   background-color: #38aef0;
